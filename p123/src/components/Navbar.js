@@ -24,9 +24,9 @@ const MyNavbar = () => (
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="#about" className="nav-link-custom"><b>About</b></Nav.Link>
-            <Nav.Link href="#projects" className="nav-link-custom">Projects</Nav.Link>
-            <Nav.Link href="#skills" className="nav-link-custom">Skills</Nav.Link>
-            <Nav.Link href="#contact" className="nav-link-custom">Contact</Nav.Link>
+            <Nav.Link href="#projects" className="nav-link-custom"><b>Projects</b></Nav.Link>
+            <Nav.Link href="#skills" className="nav-link-custom"><b>Skills</b></Nav.Link>
+            <Nav.Link href="#contact" className="nav-link-custom"><b>Contact</b></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

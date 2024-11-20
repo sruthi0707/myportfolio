@@ -142,6 +142,47 @@ const Projects = () => (
             </Card>
           </div>
         </Carousel.Item>
+         {/* Project 4 */}
+         <Carousel.Item>
+          <div
+            style={{
+              background: "linear-gradient(90deg, #8A5DB2, #FFC04C, #FFA07A, #8A5DB2)", // Updated gradient
+              padding: "30px 0",
+            }}
+            className="text-center"
+          >
+            <Card
+              className="mx-auto"
+              style={{
+                maxWidth: "400px",
+                background: "rgba(255, 255, 255, 0.85)",
+                border: "none",
+                borderRadius: "10px",
+              }}
+            >
+              <Card.Body>
+                <Card.Title style={{ color: "orange", fontWeight: "bold" }}>
+                  AI ChatBot
+                </Card.Title>
+                <Card.Text style={{ color: "purple" }}>
+                This project features an AI-powered chatbot built for providing instant customer support on websites. The chatbot leverages Natural Language Processing (NLP) to understand and respond to user queries effectively, improving user engagement and satisfaction.
+                </Card.Text>
+                <Button
+                  variant="outline-light"
+                  href="https://github.com/sruthi0707/React-AI-Chatbot"
+                  style={{
+                    background: "yellow",
+                    borderColor: "orange",
+                    color: "#000",
+                  }}
+                >
+                  <b>View Project</b>
+                </Button>
+              </Card.Body>
+            </Card>
+          </div>
+        </Carousel.Item>
+
       </Carousel>
     </Container>
   </section>
